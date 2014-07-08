@@ -45,4 +45,4 @@ gem 'foundation'
 
 gem 'rails_12factor'
 
-gem 'postmark-rails', group: :production
+gem 'postmark-rails'
