@@ -45,4 +45,8 @@ gem 'foundation'
 
 gem 'rails_12factor'
 
+gem 'acts-as-taggable-on'
 gem 'postmark-rails'
+gem 'carrierwave'
+gem 'mini_magick'
+gem "better_errors"

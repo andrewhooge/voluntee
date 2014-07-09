@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Open position:</strong>
+  <%= @open_position.open_position %>
+</p>
+
+<p>
+  <strong>Details:</strong>
+  <%= @open_position.details %>
+</p>
+
+<p>
+  <strong>Interest:</strong>
+  <%= @open_position.interest %>
+</p>
+
+<%= link_to 'Edit', edit_open_position_path(@open_position) %> |
+<%= link_to 'Back', open_positions_path %>

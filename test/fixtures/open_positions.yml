@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  open_position: MyString
+  details: MyString
+  interest: false
+
+two:
+  open_position: MyString
+  details: MyString
+  interest: false
