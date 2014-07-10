@@ -46,9 +46,19 @@ gem 'foundation'
 gem 'rails_12factor'
 
 gem 'acts-as-taggable-on'
+
 gem 'postmark-rails'
+
+gem 'fog'
+
 gem 'carrierwave'
+
 gem 'mini_magick'
+
 gem "better_errors"
+
 gem 'activeadmin', github: 'gregbell/active_admin'
+
 gem 'jquery-ui-rails', '~> 4.2.1'
+
+gem "cancan"

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1463374397">
+    <data-source source="LOCAL" name="Rails voluntee: development" uuid="784e87c0-6ade-4f77-8f1c-89e0ddddaf8b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:voluntee_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails voluntee: test" uuid="49ec1b27-cb3d-4509-93aa-e1667fda8872">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:voluntee_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails voluntee: production" uuid="0fcab31f-d3a8-4896-af33-f4f83e92e7b0">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:voluntee_production</jdbc-url>
+      <user-name>voluntee</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffcdfe5dfe6dfffdfe4dffedfefdfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
