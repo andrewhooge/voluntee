@@ -41,7 +41,7 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 gem 'devise'
 
-gem 'foundation'
+gem 'foundation-rails'
 
 gem 'rails_12factor'
 
