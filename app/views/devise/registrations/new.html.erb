@@ -1,6 +1,16 @@
-<h2>Sign up</h2>
+<div class="row">
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+
+  <div class="large-6 columns">
+
+    <!--<%= image_tag("hope.gif", :class => "volunteer") %>-->
+
+  </div>
+  <aside class="large-4 columns">
+    <div class="panel">
+
+
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
 
   <div><%= f.label :email %><br />
@@ -14,5 +24,8 @@
 
   <div><%= f.submit "Sign up" %></div>
 <% end %>
+      </div>
 
 <%= render "devise/shared/links" %>
+  </aside>
+</div>

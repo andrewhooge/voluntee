@@ -62,3 +62,9 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'jquery-ui-rails', '~> 4.2.1'
 
 gem "cancan"
+
+gem 'capybara'
+
+gem 'rake', '~>10.3.2'
+
+gem 'simple_form', '~> 3.0'

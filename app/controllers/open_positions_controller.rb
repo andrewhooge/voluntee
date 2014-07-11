@@ -1,5 +1,7 @@
 class OpenPositionsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_open_position, only: [:show, :edit, :update, :destroy]
+
 
   # GET /open_positions
   # GET /open_positions.json
