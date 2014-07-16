@@ -68,3 +68,5 @@ gem 'capybara'
 gem 'rake', '~>10.3.2'
 
 gem 'simple_form', '~> 3.0'
+
+gem 'rails-api'

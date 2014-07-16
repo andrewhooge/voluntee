@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140710220422) do
+ActiveRecord::Schema.define(version: 20140711134800) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,7 +55,10 @@ ActiveRecord::Schema.define(version: 20140710220422) do
     t.boolean  "interest"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "position_id"
   end
+
+  add_index "open_positions", ["position_id"], name: "index_open_positions_on_position_id", using: :btree
 
   create_table "positions", force: true do |t|
     t.string   "position"

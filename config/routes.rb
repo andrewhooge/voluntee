@@ -7,6 +7,11 @@ Rails.application.routes.draw do
 
   devise_for :users
 
+  namespace :api do
+    devise_for :users
+    resources :open_positions, :only=>[:index, :show]
+  end
+
   get 'logout_path', :to => 'devise/sessions#destroy', :as => :logout
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
