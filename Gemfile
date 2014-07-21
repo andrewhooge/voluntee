@@ -69,4 +69,8 @@ gem 'rake', '~>10.3.2'
 
 gem 'simple_form', '~> 3.0'
 
-gem 'rails-api'
+# gem 'rails-api'
+#
+gem 'omniauth-facebook'
+
+gem "koala", "~> 1.10.0rc"
